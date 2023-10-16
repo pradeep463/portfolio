@@ -1,0 +1,59 @@
+.elementor-heading-title {
+  font-family: "Poppins", Sans-serif;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: white;
+  margin-bottom: 40px;
+}
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.border {
+  border: 1px solid white;
+  padding: 40px;
+  border-radius: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.helloImg {
+  opacity: 1;
+  position: absolute;
+  top: 60%;
+  object-fit: contain;
+  z-index: 100;
+}
+.wt {
+  color: white;
+  font-family: "Roboto Mono", Sans-serif;
+  text-align: justify;
+}
+.bl {
+  border-left: 3px solid #df058d;
+  padding-left: 9px;
+}
+
+.und {
+  border-bottom: 5px solid #df058d; /* Add an underline with the same color */
+  display: inline; /* Ensure the underline doesn't span the entire line */
+}
+@media (max-width: 768px) {
+  .elementor-heading-title {
+    font-size: 8vw; /* Adjust the font size for smaller screens */
+    margin-top: 40px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .elementor-heading-title {
+    font-size: 8vw; /* Adjust the font size for very small screens */
+    margin-top: 40px;
+  }
+}

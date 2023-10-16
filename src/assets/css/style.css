@@ -1,0 +1,168 @@
+.home-cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure it takes the full height of the viewport */
+  background-image: url("../images/home-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.heading {
+  font-size: 10vw;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  text-shadow: 1px 3px 11px rgba(0, 0, 0, 0.3);
+}
+
+.custom-accordion-header button {
+  background-color: #df058d; /* Change to your desired color */
+  color: #fff; /* Change to your desired text color */
+}
+.accordion-button:not(.collapsed) {
+  background-color: #df058d !important; /* Change to your desired color */
+  color: #fff !important; /* Change to your desired text color */
+}
+.accordion-body {
+  background-color: rgb(26, 25, 29) !important;
+  color: #fff;
+}
+.chip {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #df058d;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 16px;
+  padding: 6px 12px;
+  margin: 4px;
+  font-size: 14px;
+}
+
+.chip-label {
+  margin-right: 4px;
+}
+
+.sub-heading {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  text-align: center;
+}
+
+.border h6 {
+  margin-bottom: 14px;
+}
+.wt {
+  color: white;
+  text-decoration: none;
+}
+.home-cover span {
+  font-family: "Roboto", sans-serif; /* Replace 'Roboto' with the font name you linked in your HTML */
+  /* Other CSS properties can be added as needed */
+}
+.circle .yel {
+  box-shadow: inset 0 0 30px 0 #fff, inset 20px 0 30px #ffd400,
+    inset -20px 0 30px red, inset 20px 0 300px #ff40d6,
+    inset -20px 0 300px #e3ff4b, 0 0 50px #fff, -10px 0 100px #fbff00,
+    10px 0 80px #f55;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #ffd400;
+}
+
+.circle-container {
+  position: relative;
+  top: -90px;
+  left: 140px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    -webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;
+}
+.contacts {
+  margin-top: 30px;
+}
+
+.contacts a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.contacts .col-md-6 {
+  margin-bottom: 15px;
+}
+
+.heading-title {
+  font-family: "Poppins", Sans-serif;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: white;
+}
+.sub-title {
+  font-family: "Poppins", Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 8vw; /* Adjust the font size for smaller screens */
+  }
+
+  .sub-heading {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+  .circle-container {
+    top: -127px;
+    left: 101px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .heading {
+    font-size: 8vw; /* Adjust the font size for very small screens */
+  }
+
+  .sub-heading {
+    font-size: 14px; /* Adjust the font size for very small screens */
+  }
+  .circle-container {
+    top: -127px;
+    left: 101px;
+  }
+}
+@media (max-width: 768px) {
+  .heading-title {
+    font-size: 8vw; /* Adjust the font size for smaller screens */
+    margin-top: 40px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .heading-title {
+    font-size: 8vw; /* Adjust the font size for very small screens */
+    margin-top: 40px;
+  }
+  .sub-title {
+    font-size: 4vw; /* Adjust the font size for very small screens */
+    margin-top: 40px;
+  }
+}

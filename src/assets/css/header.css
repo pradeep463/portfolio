@@ -1,0 +1,19 @@
+.count {
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #b7f;
+}
+.count::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
