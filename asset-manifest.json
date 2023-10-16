@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc0a71b8.css",
+    "main.js": "/static/js/main.613e8821.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/hello-world-html-code-768x384.webp": "/static/media/hello-world-html-code-768x384.c6d86dddde7b4b7c150f.webp",
+    "static/media/man-doing-bicycle-delivery-svgrepo-com.svg": "/static/media/man-doing-bicycle-delivery-svgrepo-com.612bd0f716e6839ed6227444dd4e7baf.svg",
+    "static/media/home-cover.jpg": "/static/media/home-cover.b18b1cc3bd9dc92efd52.jpg",
+    "static/media/php2-svgrepo-com.svg": "/static/media/php2-svgrepo-com.7c8744f2ab546f61d58d07dfd65ae401.svg",
+    "static/media/react-svgrepo-com(1).svg": "/static/media/react-svgrepo-com(1).598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/laravel-svgrepo-com.svg": "/static/media/laravel-svgrepo-com.6f8afa8068ec283083af194c57f425bc.svg",
+    "static/media/web-rtc-svgrepo-com.svg": "/static/media/web-rtc-svgrepo-com.51b95bc655bbaef429261f4b7f310f36.svg",
+    "static/media/instagram-1-svgrepo-com.svg": "/static/media/instagram-1-svgrepo-com.a0a9a83448ddb5827d70493a84d37806.svg",
+    "static/media/node-js-svgrepo-com.svg": "/static/media/node-js-svgrepo-com.a7f2ccf30eed3e5878a2ba1e6be108a2.svg",
+    "static/media/front-end.svg": "/static/media/front-end.ab47dee52b889a67301c026e787eeb56.svg",
+    "static/media/down-arr.svg": "/static/media/down-arr.00e1e8d96c62c5ff6645e08bdb21c7a8.svg",
+    "static/media/symfony-svgrepo-com.svg": "/static/media/symfony-svgrepo-com.bb3e8fddfc2fe079c235497900b9a2d9.svg",
+    "static/media/finance-business-money-exchange-payment-svgrepo-com.svg": "/static/media/finance-business-money-exchange-payment-svgrepo-com.cca4f3f6fbd780478f2d9ed372985355.svg",
+    "static/media/gmail-svgrepo-com.svg": "/static/media/gmail-svgrepo-com.29ac350df92c649ab87525a839df486e.svg",
+    "static/media/sms-backup-svgrepo-com.svg": "/static/media/sms-backup-svgrepo-com.61ef832f310864eadd4f595a392dea51.svg",
+    "static/media/github-square-svgrepo-com.svg": "/static/media/github-square-svgrepo-com.02fbd4a2994321e5258eea2400ae2d9f.svg",
+    "static/media/linkedin-svgrepo-com.svg": "/static/media/linkedin-svgrepo-com.c341cc1c307221b0fe42599c619ceeaf.svg",
+    "static/media/soft-dev.svg": "/static/media/soft-dev.ba8601f77c8f3af60c53d93f80a48b41.svg",
+    "index.html": "/index.html",
+    "main.fc0a71b8.css.map": "/static/css/main.fc0a71b8.css.map",
+    "main.613e8821.js.map": "/static/js/main.613e8821.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc0a71b8.css",
+    "static/js/main.613e8821.js"
+  ]
+}
